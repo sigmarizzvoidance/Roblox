@@ -21,4 +21,23 @@ h1 {
     font-size: 3rem; /* Big text */
     font-weight: bold;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Slight shadow to make the text stand out */
+    margin-bottom: 20px; /* Space between the text and button */
+}
+
+/* Style for the download button */
+.download-btn {
+    background-color: #fff; /* White background */
+    color: #121212; /* Dark text color */
+    padding: 15px 30px; /* Padding for button */
+    font-size: 1.2rem; /* Font size */
+    text-decoration: none; /* Remove underline */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for button */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+.download-btn:hover {
+    background-color: #f0f0f0; /* Light grey when hovered */
+    transform: translateY(-2px); /* Slightly lift the button on hover */
 }
